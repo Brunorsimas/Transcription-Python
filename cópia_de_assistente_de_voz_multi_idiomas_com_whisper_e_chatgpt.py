@@ -67,7 +67,7 @@ drive.mount('/content/drive')
 
 """# 2. Reconhecimento de Fala com Whisper (Gemini) 🧠"""
 
-!pip install git+https://github.com/openai/whisper.git -q
+# comando para instalar o whisper: !pip install git+https://github.com/openai/whisper.git -q
 
 import whisper
 
@@ -84,7 +84,7 @@ print(transcription)
 
 """# 3. Integração com a API do Gemini 💬"""
 
-!pip install openai
+# comando para instalar o openai: !pip install openai
 
 import os
 
@@ -122,7 +122,7 @@ print(chatgpt_response)
 
 """# 4. Sintetizando a Resposta do Gemini Como Voz (gTTS) 🔊"""
 
-!pip install gTTS
+# comando para instalar o gTTS: !pip install gTTS
 
 from gtts import  gTTS
 
